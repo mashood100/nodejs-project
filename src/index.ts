@@ -2,7 +2,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import todoRoutes from './routes/todoRoutes';
 import authRoutes from './routes/authRoutes';
-// mongoose.set('strictQuery', false);
 const app = express();
 const PORT = 3000;
 
