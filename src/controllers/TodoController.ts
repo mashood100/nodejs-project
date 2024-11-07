@@ -1,5 +1,12 @@
 import { Request, Response } from 'express';
 import Todo, { ITodo } from '../models/Todo';
+import Redis from 'ioredis';
+
+const redis = new Redis({
+  host: process.env.REDIS_HOST,
+  port: parseInt(process.env.REDIS_PORT || '6379'),
+  maxRetriesPerRequest: 3
+});
 
 export const getAllTodos = async (req: Request, res: Response) => {
   try {
@@ -11,14 +18,16 @@ export const getAllTodos = async (req: Request, res: Response) => {
 };
 
 export const getTodoById = async (req: Request, res: Response) => {
+  const cacheKey = `todo:${req.userId}:${req.params.id}`;
+  
   try {
-    const { id } = req.params;
-    const todo = await Todo.findOne({ _id: id, user: req.userId });
-    
+    const todo = await Todo.findOne({ _id: req.params.id, user: req.userId });
     if (!todo) {
       return res.status(404).json({ message: 'Todo not found' });
     }
     
+    // Cache the result
+    await redis.setex(cacheKey, 3600, JSON.stringify(todo));
     res.json(todo);
   } catch (error) {
     res.status(500).json({ message: 'Error fetching todo', error });
