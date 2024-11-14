@@ -1,0 +1,96 @@
+[2024-11-09T15:23:30.053] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': 'YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q',
+    Authorization: 'Sign XfwFPkdNwcu52yyIq4OxjJzjDXgxqHZLyFu+D1nqtc0=',
+    'X-CK-Nonce': 'ooz9rmo6',
+    Date: '1731147810053'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:23:31.677] [INFO] as - Response received： {"status":200,"responseTime":1624,"error":407,"msg":"appid is unauthorized! YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q","data":{}}
+[2024-11-09T15:24:32.465] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': 'YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q',
+    Authorization: 'Sign XfwFPkdNwcu52yyIq4OxjJzjDXgxqHZLyFu+D1nqtc0=',
+    'X-CK-Nonce': '913fcsuo',
+    Date: '1731147872465'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:24:33.887] [INFO] as - Response received： {"status":200,"responseTime":1421,"error":407,"msg":"appid is unauthorized! YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q","data":{}}
+[2024-11-09T15:25:12.911] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': '1ohP6aE9RknXINoiy548T9c2XkUc9xhi',
+    Authorization: 'Sign 4sHdt5IG784ZrZGqyAZC6GPNsbZbNfHeraVdCHM9jh8=',
+    'X-CK-Nonce': 'jly806vs',
+    Date: '1731147912910'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:25:14.346] [INFO] as - Response received： {"status":200,"responseTime":1436,"error":407,"msg":"the path of request is not allowed with appid:1ohP6aE9RknXINoiy548T9c2XkUc9xhi","data":{}}
+[2024-11-09T15:38:32.361] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': '1ohP6aE9RknXINoiy548T9c2XkUc9xhi',
+    Authorization: 'Sign 4sHdt5IG784ZrZGqyAZC6GPNsbZbNfHeraVdCHM9jh8=',
+    'X-CK-Nonce': 'vq9gpf54',
+    Date: '1731148712360'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:38:34.078] [INFO] as - Response received： {"status":200,"responseTime":1718,"error":407,"msg":"the path of request is not allowed with appid:1ohP6aE9RknXINoiy548T9c2XkUc9xhi","data":{}}
+[2024-11-09T15:40:37.388] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': 'YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q',
+    Authorization: 'Sign XfwFPkdNwcu52yyIq4OxjJzjDXgxqHZLyFu+D1nqtc0=',
+    'X-CK-Nonce': 'ry1v1unp',
+    Date: '1731148837388'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:40:38.976] [INFO] as - Response received： {"status":200,"responseTime":1588,"error":407,"msg":"appid is unauthorized! YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q","data":{}}
+[2024-11-09T15:41:42.508] [INFO] as - Send request:  {
+  url: '/v2/user/login',
+  method: 'post',
+  baseURL: 'https://as-apia.coolkit.cc',
+  headers: Object [AxiosHeaders] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/json',
+    'X-CK-Appid': 'jpGj42K0bDLRUQq9gk0vCrmYgMFesdnG',
+    Authorization: 'Sign v7MD4TxmoS6nUmPQzhDRUM+QbjuizzhGQgsLC10WIjc=',
+    'X-CK-Nonce': '6ud2fu59',
+    Date: '1731148902507'
+  },
+  params: undefined,
+  data: '{"countryCode":"+961","password":"nadim@nadim","email":"nadim.khoury@arkenergy.ae"}'
+}
+[2024-11-09T15:41:44.288] [INFO] as - Response received： {"status":200,"responseTime":1781,"error":400,"msg":"invalid appid","data":{}}

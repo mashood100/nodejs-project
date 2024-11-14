@@ -4,9 +4,11 @@ import { authMiddleware } from '../middleware/auth';
 
 const router = express.Router();
 
+// Handle user registration
 router.post('/register', register);
+// Handle user login and token generation
 router.post('/login', login);
-// Only protect the profile route
+// Protected route - requires valid JWT token
 router.get('/profile', authMiddleware, getProfile);
 
 export default router;

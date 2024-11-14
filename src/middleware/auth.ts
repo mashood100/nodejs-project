@@ -18,6 +18,13 @@ declare global {
   }
 }
 
+// Middleware to verify JWT tokens and protect routes
+// Key features:
+// - Extracts token from Authorization header
+// - Verifies token validity
+// - Checks user existence
+// - Validates token expiration (4 days)
+// - Adds userId to request object for downstream use
 export const authMiddleware = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const token = req.header('Authorization')?.replace('Bearer ', '');
